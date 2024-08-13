@@ -13,3 +13,52 @@ Unsupervised Multi-Source Domain Adaptation (UMDA) aims to utilize multiple sour
 
 * Finally, we make improvements to the batch normalization layers in the feature extractor network by utilizing matched normalization layers that share affine parameters between the source and target domains. This achieves domain alignment at the feature extraction level, yielding very good results.
 
+## Setup
+### Install Package Dependencies
+
+```
+Python Environment: >= 3.6
+torch >= 1.2.0
+torchvision >= 0.4.0
+tensorbard >= 2.0.0
+numpy
+yaml
+```
+
+### Install Datasets
+We need users to download the DigitFive, Office-Caltech, Office31, DomainNet, or MiniDomainNet, and Office-Home datasets for the MSFDA experiments. They should declare a base path to store the datasets with the following directory structure:
+
+```
+base_path/
+├── DigitFive/
+│   │   mnist_data.mat
+│   │   mnistm_with_label.mat
+|   |   svhn_test_32x32.mat
+|   |   svhn_train_32x32.mat  
+│   │   ...
+├── Office-Caltech/
+│   │   ...
+├── Office31/
+│   │   ...
+├── MiniDomainNet/
+│   │   ...
+└── Office-Home/
+│   │   ...
+├── DomainNet/
+│   │   Clipart
+│   │   Infograph
+│   │   ...
+└───trained_model
+│   │	parmater
+│   │	runs
+...
+```
+
+
+
+
+
+
+
+
+
