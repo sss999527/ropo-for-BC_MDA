@@ -53,7 +53,8 @@ base_path/
 │   │	runs
 ...
 ```
-
+### Unsupervised Multi-source-free Domain Adaptation
+The configuration files are located in the `./config` directory, where you will find four `.yaml`-formatted config files. To execute unsupervised multi-source decentralized domain adaptation on a particular dataset, such as DomainNet, utilize the following commands.
 
 
 
