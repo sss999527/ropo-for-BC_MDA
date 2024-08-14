@@ -60,7 +60,9 @@ The configuration files are located in the `./config` directory, where you will 
 python main.py --config MiniDomainNet.yaml --target-domain painting -bp "$(pwd)"
 ```
 The training results for four main datasets are as follows:
-
+![T1](https://github.com/sss999527/ropo-for-BC_MDA/blob/main/images/T1.png)
+![T2,3](https://github.com/sss999527/ropo-for-BC_MDA/blob/main/images/T2_3.png)
+![T4](https://github.com/sss999527/ropo-for-BC_MDA/blob/main/images/T4.png)
 
 
 
