@@ -54,9 +54,12 @@ base_path/
 ...
 ```
 ### Unsupervised Multi-source-free Domain Adaptation
-The configuration files are located in the `./config` directory, where you will find four `.yaml`-formatted config files. To execute unsupervised multi-source decentralized domain adaptation on a particular dataset, such as DomainNet, utilize the following commands.
+The configuration files are located in the `./config` directory, where you will find four `.yaml`-formatted config files. To execute unsupervised multi-source decentralized domain adaptation on a particular dataset, such as painting in DomainNet, utilize the following commands.
 
-
+```
+python main.py --config MiniDomainNet.yaml --target-domain painting -bp "$(pwd)"
+```
+The training results for four main datasets are as follows:
 
 
 
