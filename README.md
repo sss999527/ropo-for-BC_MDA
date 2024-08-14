@@ -60,6 +60,8 @@ The configuration files are located in the `./config` directory, where you will 
 python main.py --config MiniDomainNet.yaml --target-domain painting -bp "$(pwd)"
 ```
 You can download the dataset from [DomainNet](https://ai.bu.edu/M3SDA/).
+The training parameters of some datasets can be downloaded from Baidu Netdisk:()
+
 
 The training results for four main datasets are as follows:
   * Results on DigitFive and Office31 dataset.
@@ -71,5 +73,6 @@ The training results for four main datasets are as follows:
 
 ## Acknowledgments
 
-
+## Miscellaneous
+Due to the adaptation of text classification and and multimodal adaptation, some programs are inconvenient to display, and will be released once they are organized.
 
