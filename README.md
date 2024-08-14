@@ -53,7 +53,7 @@ base_path
 │   │	runs
 ...
 ```
-
+Note that the `dataset` folder is different from the `datasets` folder, one for the dataset and the other for the network model.
 
 ### Unsupervised Multi-source-free Domain Adaptation
 The configuration files are located in the `./config` directory, where you will find four `.yaml`-formatted config files. To execute unsupervised multi-source decentralized domain adaptation on a particular dataset, such as painting in DomainNet, utilize the following commands.
