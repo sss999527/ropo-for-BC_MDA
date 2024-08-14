@@ -59,12 +59,17 @@ The configuration files are located in the `./config` directory, where you will 
 ```
 python main.py --config MiniDomainNet.yaml --target-domain painting -bp "$(pwd)"
 ```
+You can download the dataset from [DomainNet](https://ai.bu.edu/M3SDA/).
+
 The training results for four main datasets are as follows:
+  * Results on DigitFive and Office31 dataset.
 ![T1](https://github.com/sss999527/ropo-for-BC_MDA/blob/main/images/T1.png)
-![T2,3](https://github.com/sss999527/ropo-for-BC_MDA/blob/main/images/T2_3.png)
+  * Results on Office-Home and Office-Caltech dataset.
+![T2,3](https://github.com/sss999527/ropo-for-BC_MDA/blob/main/images/F2_3.png)
+  * Results on DomainNet dataset.
 ![T4](https://github.com/sss999527/ropo-for-BC_MDA/blob/main/images/T4.png)
 
-
+## Acknowledgments
 
 
 
