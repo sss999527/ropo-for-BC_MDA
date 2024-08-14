@@ -1,3 +1,2 @@
-```python
 python main.py --config DomainNet.yaml --target-domain clipart -bp base_path
-```
+
