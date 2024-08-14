@@ -1,2 +1,7 @@
-python main.py --config DomainNet.yaml --target-domain clipart -bp base_path
+python main.py --config DomainNet.yaml --target-domain clipart -bp "$(pwd)"
+python main.py --config DomainNet.yaml --target-domain painting -bp "$(pwd)"
+python main.py --config DomainNet.yaml --target-domain infograph -bp "$(pwd)"
+python main.py --config DomainNet.yaml --target-domain quickdraw -bp "$(pwd)"
+python main.py --config DomainNet.yaml --target-domain real -bp "$(pwd)"
+python main.py --config DomainNet.yaml --target-domain sketch -bp "$(pwd)"
 
