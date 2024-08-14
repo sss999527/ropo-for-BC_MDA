@@ -64,7 +64,7 @@ python main.py --config MiniDomainNet.yaml --target-domain painting -bp "$(pwd)"
 You can download the dataset from [DomainNet](https://ai.bu.edu/M3SDA/).
 
 The training parameters of some datasets can be downloaded from Baidu Netdisk:
-Link:( https://pan.baidu.com/s/1wgzt6fGnqlkjJIv-Jn5MAg?pwd=3why)
+https://pan.baidu.com/s/1wgzt6fGnqlkjJIv-Jn5MAg?pwd=3why
 
 
 The training results for four main datasets are as follows:
