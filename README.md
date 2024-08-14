@@ -29,30 +29,32 @@ yaml
 We need users to download the DigitFive, Office-Caltech, Office31, DomainNet, or MiniDomainNet, and Office-Home datasets for the MSFDA experiments. They should declare a base path to store the datasets with the following directory structure:
 
 ```
-base_path/
-├── DigitFive/
-│   │   mnist_data.mat
-│   │   mnistm_with_label.mat
-|   |   svhn_test_32x32.mat
-|   |   svhn_train_32x32.mat  
-│   │   ...
-├── Office-Caltech/
-│   │   ...
-├── Office31/
-│   │   ...
-├── MiniDomainNet/
-│   │   ...
-└── Office-Home/
-│   │   ...
-├── DomainNet/
-│   │   Clipart
-│   │   Infograph
-│   │   ...
+base_path
+│       
+└───dataset
+│   │   DigitFive
+│       │   mnist_data.mat
+│       │   mnistm_with_label.mat
+|       |   svhn_test_32x32.mat
+|       |   svhn_train_32x32.mat  
+│       │   ...
+│   │   DomainNet
+│       │   Clipart
+│       │   Infograph
+│       │   ...
+│   │   MiniDomainNet
+│       │   ...
+│   │   OfficeCaltech10
+│       │   ...
+|   |   Office31
+|       |   ...
 └───trained_model
 │   │	parmater
 │   │	runs
 ...
 ```
+
+
 ### Unsupervised Multi-source-free Domain Adaptation
 The configuration files are located in the `./config` directory, where you will find four `.yaml`-formatted config files. To execute unsupervised multi-source decentralized domain adaptation on a particular dataset, such as painting in DomainNet, utilize the following commands.
 
@@ -76,5 +78,5 @@ The training results for four main datasets are as follows:
 ## Acknowledgments
 
 ## Miscellaneous
-Due to the adaptation of text classification and and multimodal adaptation, some programs are inconvenient to display, and will be released once they are organized.
+Due to the further completion of text classification and multimodal adaptation, some unimportant programs are not displayed, and once sorted out and annotated, the complete code will be released.
 
